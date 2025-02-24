@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XSS Fuzzer</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>XSS Fuzzer</h3>
+  <textarea id="payloads" placeholder="Enter XSS payloads (one per line)"></textarea>
+  <button id="startFuzzing">Start Fuzzing</button>
+  <script src="popup.js"></script>
+</body>
+</html>
